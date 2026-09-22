@@ -1,0 +1,20 @@
+{
+ "name": "experimento-api-express-testes",
+ "version": "1.0.0",
+ "description": "Experimento de testes de uma API Express",
+ "main": "src/server.js",
+ "scripts": {
+ "start": "node src/server.js",
+ "test": "jest --runInBand",
+ "test:watch": "jest --watch",
+ "test:coverage": "jest --coverage"
+ },
+ "dependencies": {
+ "express": "^5.0.0"
+ },
+ "devDependencies": {
+ "jest": "^30.0.0",
+ "supertest": "^7.0.0"
+ }
+}
+
